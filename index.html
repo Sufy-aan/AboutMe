@@ -236,15 +236,15 @@
       <a href="#" class="logo">SUFYAAN.</a>
 
       <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Articles</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-      </div>
+  <a href="#home">Home</a>
+  <a href="#articles">Articles</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</div>
     </div>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="container">
     <h1>Thoughts, ideas & projects.</h1>
     <p>
@@ -261,7 +261,7 @@
     </div>
   </section>
 
-  <main class="posts container">
+  <main class="posts container" id="articles">
 
     <article class="card">
       <span class="tag">Games</span>
@@ -303,9 +303,54 @@
     </article>
 
   </main>
+  
+<section class="container" id="projects" style="padding-bottom:5rem;">
+  <h2 style="font-size:2.5rem; margin-bottom:1rem;">Projects</h2>
 
+  <div class="posts">
+
+    <article class="card">
+      <span class="tag">Game</span>
+      <h2>Geneva GeoGuessr</h2>
+      <p>
+        A Geneva-based guessing game project made with AI tools and vibe coding.
+      </p>
+
+      <div class="meta">
+        <span>2026</span>
+        <a href="#">Open Project →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="container" id="contact" style="padding-bottom:5rem;">
+  <h2 style="font-size:2.5rem; margin-bottom:1rem;">Contact</h2>
+
+  <div class="card">
+    <p>
+      You can contact me through GitHub, Discord, or email.
+    </p>
+
+    <div class="controls">
+      <a class="button" href="https://github.com/" target="_blank">
+        GitHub
+      </a>
+
+      <a class="button" href="#">
+        Discord
+      </a>
+
+      <a class="button" href="mailto:youremail@example.com">
+        Email
+      </a>
+    </div>
+  </div>
+</section>
   <footer>
     <p>© 2026 Suyaan — Built with HTML & GitHub Pages</p>
+    
   </footer>
 
   <script>
