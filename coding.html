@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Article Title</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#f7f7f7;
+  --card:#ffffff;
+  --text:#111;
+  --secondary:#666;
+  --border:#e5e5e5;
+  --accent:#111;
+  --radius:24px;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Inter,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.8;
+}
+
+.container{
+  max-width:850px;
+  margin:auto;
+  padding:2rem;
+}
+
+.back{
+  display:inline-block;
+  margin-bottom:3rem;
+  text-decoration:none;
+  color:var(--accent);
+  font-weight:600;
+}
+
+.article{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:3rem;
+}
+
+.tag{
+  display:inline-block;
+  background:#eee;
+  padding:.4rem .8rem;
+  border-radius:999px;
+  margin-bottom:1rem;
+}
+
+h1{
+  font-size:3rem;
+  line-height:1;
+  margin-bottom:1rem;
+}
+
+.meta{
+  color:var(--secondary);
+  margin-bottom:2rem;
+}
+
+img{
+  width:100%;
+  border-radius:18px;
+  margin:2rem 0;
+}
+
+p{
+  margin-bottom:1.2rem;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<a href="../index.html" class="back">← Back to Home</a>
+
+<article class="article">
+
+<span class="tag">Games</span>
+
+<h1>The Games I'm Playing Right Now</h1>
+
+<div class="meta">
+May 2026 • 5 min read
+</div>
+
+<img src="../images/games.jpg" alt="Games">
+
+<p>
+Write your article here.
+</p>
+
+<p>
+Add as many paragraphs as you want.
+</p>
+
+<p>
+You can also add screenshots, videos, project links, and lists.
+</p>
+
+</article>
+
+</div>
+
+</body>
+</html>
